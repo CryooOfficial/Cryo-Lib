@@ -432,7 +432,7 @@ function Library:create(options)
 		Name = "Cryo",
 		Size = UDim2.fromOffset(600, 400),
 		Theme = self.Themes[settings.Theme],
-		Link = "https://github.com/deeeity/mercury-lib"
+		Link = "https://github.com/CryooOfficial/Cryo-Lib"
 	}, options)
 
 	if getgenv and getgenv().MercuryUI then
@@ -686,7 +686,7 @@ function Library:create(options)
 		BackgroundTransparency = 1,
 		Position = UDim2.new(0, 5, 0.5, 0),
 		Size = UDim2.new(0, 15, 0, 15),
-		Image = "http://www.roblox.com/asset/?id=71093627399055",
+		Image = "http://www.roblox.com/asset/?id=87713000038503",
 		Theme = {ImageColor3 = "StrongText"}
 	})
 
@@ -3558,3 +3558,5 @@ return setmetatable(Library, {
 		return rawget(Library, i:lower())
 	end
 })
+
+71093627399055
