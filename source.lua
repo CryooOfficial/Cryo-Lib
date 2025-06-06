@@ -918,7 +918,7 @@ function Library:create(options)
 
 	creditsTab:credit{Name = "Cryo", Description = "UI Library Developer", Discord = "empty"}
 	creditsTab:credit{Name = "Cryo", Description = "UI Library Developer", Discord = "empty"}
-	creditsTab:credit{Name = "Repository", Description = "UI Library Repository", Github="https://github.com/"}
+	creditsTab:credit{Name = "Repository", Description = "UI Library Repository", Github="https://github.com/CryooOfficial/Cryo-Lib/blob/main/source.lua"}
 
 	return mt
 end
